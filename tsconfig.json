@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "outDir": "dist"    
+  },
+  "include": ["src"]  
+}
