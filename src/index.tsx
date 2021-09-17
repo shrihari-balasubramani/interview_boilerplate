@@ -1,12 +1,7 @@
-import { Box, Typography } from '@material-ui/core';
+import { x } from '@xstyled/styled-components';
 
 export const BannerWithText = ({ imgUrl }: { imgUrl: string }) => (
-  <Box display="flex">
-    <Box>
-      <img src={imgUrl} alt="ehs" />
-    </Box>
-    <Typography variant="body1" component="p">
-      GNTM
-    </Typography>
-  </Box>
+  <x.div backgroundColor="warm-gray-800">
+    <img src={imgUrl} alt="gntm" />
+  </x.div>
 );
